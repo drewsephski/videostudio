@@ -1,0 +1,12 @@
+node_modules
+review/
+renders/draft_*
+renders/clip_*
+audio/mix_raw.wav
+audio/music_ducked.wav
+.venv/
+renders/*.mp4
+audio/mix.wav
+audio/sfx.wav
+audio/vo.wav
+audio/vo_placed.json

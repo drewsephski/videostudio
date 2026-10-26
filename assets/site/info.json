@@ -1,0 +1,541 @@
+{
+  "url": "https://kraftybot.app/",
+  "title": "Krafty — AI teammates with memory, apps, and a cloud computer",
+  "description": "AI teammates with memory, connected apps, and a shared cloud computer with a browser. Create Bots, run routines, and get finished work back with your browser closed.",
+  "font_families_by_use": [
+    [
+      "botFont, \"botFont Fallback\", Arial, sans-serif",
+      160
+    ],
+    [
+      "system-ui, -apple-system, \"system-ui\", \"Segoe UI\", sans-serif",
+      39
+    ],
+    [
+      "\"Cursor Gothic\", -apple-system, \"system-ui\", sans-serif",
+      27
+    ],
+    [
+      "system-ui, -apple-system, \"system-ui\", \"Segoe UI\", \"Helvetica Neue\", Arial, sans-serif",
+      12
+    ],
+    [
+      "KraftyDemoIcons",
+      7
+    ],
+    [
+      "\"Krafty Role Icons\", sans-serif",
+      5
+    ],
+    [
+      "kraftyFont, \"kraftyFont Fallback\"",
+      3
+    ],
+    [
+      "kraftyFont, \"kraftyFont Fallback\", sans-serif",
+      1
+    ]
+  ],
+  "font_faces": [
+    {
+      "family": "kraftyFont",
+      "weight": "200 800",
+      "style": "normal",
+      "range": "",
+      "urls": [
+        "https://kraftybot.app/_next/static/media/display-s.p.2_a5y-slrzff6.woff2"
+      ]
+    },
+    {
+      "family": "kraftyFont Fallback",
+      "weight": "400",
+      "style": "normal",
+      "range": "",
+      "urls": []
+    },
+    {
+      "family": "Geist Mono",
+      "weight": "100 900",
+      "style": "normal",
+      "range": "U+460-52F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F",
+      "urls": [
+        "https://kraftybot.app/_next/static/media/5ce348bf30bf5439-s.31988l_ccedte.woff2"
+      ]
+    },
+    {
+      "family": "Geist Mono",
+      "weight": "100 900",
+      "style": "normal",
+      "range": "U+301, U+400-45F, U+490-491, U+4B0-4B1, U+2116",
+      "urls": [
+        "https://kraftybot.app/_next/static/media/4fa387ec64143e14-s.2tuy5pz7dlieh.woff2"
+      ]
+    },
+    {
+      "family": "Geist Mono",
+      "weight": "100 900",
+      "style": "normal",
+      "range": "U+2000-2001, U+2004-2008, U+200A, U+23B8-23BD, U+2500-259F",
+      "urls": [
+        "https://kraftybot.app/_next/static/media/6306c77e7c8268e4-s.2dbetqa9o8jxf.woff2"
+      ]
+    },
+    {
+      "family": "Geist Mono",
+      "weight": "100 900",
+      "style": "normal",
+      "range": "U+102-103, U+110-111, U+128-129, U+168-169, U+1A0-1A1, U+1AF-1B0, U+300-301, U+303-304, U+308-309, U+323, U+329, U+1EA0-1EF9, U+20AB",
+      "urls": [
+        "https://kraftybot.app/_next/static/media/7d817b4c03b0c5f1-s.1uyisp29ctx0d.woff2"
+      ]
+    },
+    {
+      "family": "Geist Mono",
+      "weight": "100 900",
+      "style": "normal",
+      "range": "U+100-2BA, U+2BD-2C5, U+2C7-2CC, U+2CE-2D7, U+2DD-2FF, U+304, U+308, U+329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF",
+      "urls": [
+        "https://kraftybot.app/_next/static/media/bbc41e54d2fcbd21-s.1rgnod-3esatf.woff2"
+      ]
+    },
+    {
+      "family": "Geist Mono",
+      "weight": "100 900",
+      "style": "normal",
+      "range": "U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304, U+308, U+329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+      "urls": [
+        "https://kraftybot.app/_next/static/media/797e433ab948586e-s.p.0r6juujl39pe6.woff2"
+      ]
+    },
+    {
+      "family": "Geist Mono Fallback",
+      "weight": "400",
+      "style": "normal",
+      "range": "",
+      "urls": []
+    },
+    {
+      "family": "botFont",
+      "weight": "200 800",
+      "style": "normal",
+      "range": "",
+      "urls": [
+        "https://kraftybot.app/_next/static/media/display-s.p.2_a5y-slrzff6.woff2"
+      ]
+    },
+    {
+      "family": "botFont Fallback",
+      "weight": "400",
+      "style": "normal",
+      "range": "",
+      "urls": []
+    },
+    {
+      "family": "botFont",
+      "weight": "200 800",
+      "style": "normal",
+      "range": "",
+      "urls": [
+        "https://kraftybot.app/_next/static/media/display-s.p.2_a5y-slrzff6.woff2"
+      ]
+    },
+    {
+      "family": "botFont Fallback",
+      "weight": "400",
+      "style": "normal",
+      "range": "",
+      "urls": []
+    },
+    {
+      "family": "KraftyDemoIcons",
+      "weight": "400",
+      "style": "normal",
+      "range": "",
+      "urls": [
+        "https://kraftybot.app/landing/bot/cursor-icons.woff2"
+      ]
+    },
+    {
+      "family": "Krafty Role Icons",
+      "weight": "400",
+      "style": "normal",
+      "range": "",
+      "urls": [
+        "https://kraftybot.app/landing/bot/cursor-icons.woff2"
+      ]
+    }
+  ],
+  "text_colors": [
+    [
+      "rgb(255, 255, 255)",
+      109
+    ],
+    [
+      "rgb(242, 242, 242)",
+      31
+    ],
+    [
+      "rgb(125, 129, 135)",
+      21
+    ],
+    [
+      "rgba(255, 255, 255, 0.58)",
+      13
+    ],
+    [
+      "rgba(255, 255, 255, 0.32)",
+      9
+    ],
+    [
+      "rgba(255, 255, 255, 0.9)",
+      8
+    ],
+    [
+      "rgba(255, 255, 255, 0.55)",
+      8
+    ],
+    [
+      "rgb(171, 171, 171)",
+      7
+    ],
+    [
+      "oklab(0.999994 0.0000455678 0.0000200868 / 0.45)",
+      5
+    ],
+    [
+      "rgb(244, 244, 244)",
+      5
+    ],
+    [
+      "rgba(255, 255, 255, 0.36)",
+      5
+    ],
+    [
+      "rgb(10, 10, 10)",
+      4
+    ],
+    [
+      "rgb(20, 20, 20)",
+      4
+    ],
+    [
+      "rgb(232, 163, 61)",
+      3
+    ],
+    [
+      "oklab(0.999994 0.0000455677 0.0000200868 / 0.8)",
+      3
+    ],
+    [
+      "rgba(255, 255, 255, 0.68)",
+      3
+    ],
+    [
+      "oklab(0.999994 0.0000455677 0.0000200868 / 0.7)",
+      2
+    ],
+    [
+      "rgb(74, 216, 236)",
+      2
+    ],
+    [
+      "rgb(153, 153, 153)",
+      2
+    ],
+    [
+      "color(srgb 0.450118 0.774902 0.713804)",
+      2
+    ]
+  ],
+  "bg_colors": [
+    [
+      "rgb(255, 255, 255)",
+      41
+    ],
+    [
+      "rgba(255, 255, 255, 0.06)",
+      13
+    ],
+    [
+      "rgb(38, 38, 38)",
+      7
+    ],
+    [
+      "rgb(26, 26, 26)",
+      6
+    ],
+    [
+      "rgb(21, 21, 21)",
+      6
+    ],
+    [
+      "rgb(10, 10, 10)",
+      5
+    ],
+    [
+      "rgb(35, 35, 35)",
+      5
+    ],
+    [
+      "rgb(41, 41, 41)",
+      5
+    ],
+    [
+      "rgb(242, 242, 242)",
+      5
+    ],
+    [
+      "color(srgb 1 1 1 / 0.02)",
+      5
+    ],
+    [
+      "rgba(232, 163, 61, 0.14)",
+      3
+    ],
+    [
+      "rgb(240, 240, 240)",
+      3
+    ],
+    [
+      "rgb(22, 22, 21)",
+      2
+    ],
+    [
+      "rgba(255, 255, 255, 0.075)",
+      2
+    ],
+    [
+      "rgb(232, 163, 61)",
+      2
+    ],
+    [
+      "rgba(242, 242, 242, 0.03)",
+      2
+    ],
+    [
+      "color(srgb 1 1 1 / 0.05)",
+      2
+    ],
+    [
+      "color(srgb 1 1 1 / 0.03)",
+      2
+    ],
+    [
+      "rgba(0, 0, 0, 0.45)",
+      2
+    ],
+    [
+      "rgb(1, 182, 195)",
+      2
+    ]
+  ],
+  "css_vars": {
+    "--background": "#fff",
+    "--foreground": "#0a0a0a",
+    "--card": "#fff",
+    "--card-foreground": "#0a0a0a",
+    "--popover": "#fff",
+    "--popover-foreground": "#0a0a0a",
+    "--primary": "#171717",
+    "--primary-foreground": "#fafafa",
+    "--secondary": "#f5f5f5",
+    "--secondary-foreground": "#171717",
+    "--muted": "#f5f5f5",
+    "--muted-foreground": "#737373",
+    "--accent": "#f5f5f5",
+    "--accent-foreground": "#171717",
+    "--destructive": "#e40014",
+    "--border": "#e5e5e5",
+    "--input": "#e5e5e5",
+    "--ring": "#a1a1a1",
+    "--chart-1": "#d4d4d4",
+    "--chart-2": "#737373",
+    "--chart-3": "#525252",
+    "--chart-4": "#404040",
+    "--chart-5": "#262626",
+    "--radius": ".875rem",
+    "--sidebar": "#fafafa",
+    "--sidebar-foreground": "#0a0a0a",
+    "--sidebar-primary": "#171717",
+    "--sidebar-primary-foreground": "#fafafa",
+    "--sidebar-accent": "#f5f5f5",
+    "--sidebar-accent-foreground": "#171717",
+    "--sidebar-border": "#e5e5e5",
+    "--sidebar-ring": "#a1a1a1",
+    "--chat-surface": "#fafafa"
+  },
+  "headings": [
+    "A: Skip to content  [botFont, \"botFont Fallback\", Arial, sans-serif 16px 400 ls -0.16px rgb(0, 0, 0)]",
+    "A: Krafty  [botFont, \"botFont Fallback\", Arial, sans-serif 26px 400 ls -0.16px rgb(255, 255, 255)]",
+    "A: Features  [botFont, \"botFont Fallback\", Arial, sans-serif 14px 400 ls -0.16px rgb(255, 255, 255)]",
+    "A: For business  [botFont, \"botFont Fallback\", Arial, sans-serif 14px 400 ls -0.16px rgb(255, 255, 255)]",
+    "A: Use cases  [botFont, \"botFont Fallback\", Arial, sans-serif 14px 400 ls -0.16px rgb(255, 255, 255)]",
+    "A: How it works  [botFont, \"botFont Fallback\", Arial, sans-serif 14px 400 ls -0.16px rgb(255, 255, 255)]",
+    "A: Pricing  [botFont, \"botFont Fallback\", Arial, sans-serif 14px 400 ls -0.16px rgb(255, 255, 255)]",
+    "A: Get the app  [botFont, \"botFont Fallback\", Arial, sans-serif 14px 400 ls -0.16px rgb(255, 255, 255)]",
+    "A: Workspace  [botFont, \"botFont Fallback\", Arial, sans-serif 14px 400 ls -0.16px rgb(255, 255, 255)]",
+    "A: View plans  [botFont, \"botFont Fallback\", Arial, sans-serif 14px 400 ls -0.16px rgb(255, 255, 255)]",
+    "A: Open Krafty  [botFont, \"botFont Fallback\", Arial, sans-serif 14px 400 ls -0.16px rgb(17, 17, 17)]",
+    "A: Krafty Bot is here | · Meet your teammates  [botFont, \"botFont Fallback\", Arial, sans-serif 13px 400 ls -0.16px rgb(255, 255, 255)]",
+    "H1: AI teammates | Krafty Bot  [botFont, \"botFont Fallback\", Arial, sans-serif 60px 500 ls -0.6px rgb(255, 255, 255)]",
+    "A: Get started  [botFont, \"botFont Fallback\", Arial, sans-serif 16px 400 ls -0.16px rgb(10, 10, 10)]",
+    "A: View plans  [botFont, \"botFont Fallback\", Arial, sans-serif 16px 400 ls -0.16px rgb(255, 255, 255)]",
+    "A:   [system-ui, -apple-system, \"system-ui\", \"Segoe UI\", 14px 400 ls -0.15px rgba(255, 255, 255, 0.58)]",
+    "BUTTON:   [system-ui, -apple-system, \"system-ui\", \"Segoe UI\", 14px 400 ls -0.15px rgba(255, 255, 255, 0.58)]",
+    "BUTTON: Chief | Yesterday | booked the venue and sent the confirmation around.  [system-ui, -apple-system, \"system-ui\", \"Segoe UI\", 14px 400 ls -0.15px rgb(242, 242, 242)]",
+    "BUTTON: Sales Outbound | 1:08 PM | Checking what's connected. Hex, Gmail, and LinkedIn are already signed in. Salesforce isn't.  [system-ui, -apple-system, \"system-ui\", \"Segoe UI\", 14px 400 ls -0.15px rgb(242, 242, 242)]",
+    "BUTTON: Inbox Manager | 10:08 AM | sent. inbox at zero, 5 drafts parked for tomorrow.  [system-ui, -apple-system, \"system-ui\", \"Segoe UI\", 14px 400 ls -0.15px rgb(242, 242, 242)]",
+    "BUTTON: Account Manager | 8:08 AM | invite's out to vicky. globex note held in drafts.  [system-ui, -apple-system, \"system-ui\", \"Segoe UI\", 14px 400 ls -0.15px rgb(242, 242, 242)]",
+    "BUTTON: Talent Scout | 5:08 AM | 3 intros drafted in your voice, held for your ok.  [system-ui, -apple-system, \"system-ui\", \"Segoe UI\", 14px 400 ls -0.15px rgb(242, 242, 242)]",
+    "BUTTON: Expense Manager | 9:08 AM | report filed. 9 receipts, nothing outstanding.  [system-ui, -apple-system, \"system-ui\", \"Segoe UI\", 14px 400 ls -0.15px rgb(242, 242, 242)]",
+    "BUTTON: Offsite crew | 7:08 AM | that leaves the pipeline. i'd spin up a dedicated agent.  [system-ui, -apple-system, \"system-ui\", \"Segoe UI\", 14px 400 ls -0.15px rgb(242, 242, 242)]",
+    "BUTTON:   [system-ui, -apple-system, \"system-ui\", \"Segoe UI\", 14px 400 ls -0.15px rgba(255, 255, 255, 0.58)]",
+    "BUTTON: Sales Outbound  [system-ui, -apple-system, \"system-ui\", \"Segoe UI\", 14px 400 ls -0.15px rgb(242, 242, 242)]",
+    "BUTTON:   [system-ui, -apple-system, \"system-ui\", \"Segoe UI\", 14px 400 ls -0.15px rgba(255, 255, 255, 0.58)]",
+    "BUTTON: Computer  [system-ui, -apple-system, \"system-ui\", \"Segoe UI\", 14px 600 ls -0.15px rgb(242, 242, 242)]",
+    "P: Sign in to Salesforce so I can see the accounts you own.  [system-ui, -apple-system, \"system-ui\", \"Segoe UI\", 14px 400 ls -0.15px rgb(242, 242, 242)]",
+    "BUTTON: Sign in  [system-ui, -apple-system, \"system-ui\", \"Segoe UI\", 5px 400 ls -0.15px rgb(10, 10, 10)]",
+    "BUTTON: Take over  [system-ui, -apple-system, \"system-ui\", \"Segoe UI\", 13px 500 ls -0.15px rgb(20, 20, 20)]",
+    "BUTTON: I’m done  [system-ui, -apple-system, \"system-ui\", \"Segoe UI\", 13px 500 ls -0.15px rgb(242, 242, 242)]",
+    "A:   [system-ui, -apple-system, \"system-ui\", \"Segoe UI\", 14px 400 ls -0.15px rgba(255, 255, 255, 0.58)]",
+    "BUTTON:   [system-ui, -apple-system, \"system-ui\", \"Segoe UI\", 14px 400 ls -0.15px rgb(20, 20, 20)]",
+    "H2: What is Krafty Bot?  [botFont, \"botFont Fallback\", Arial, sans-serif 36px 500 ls -0.36px rgb(255, 255, 255)]",
+    "A: How Krafty Bot works  [botFont, \"botFont Fallback\", Arial, sans-serif 15px 400 ls -0.16px rgb(255, 255, 255)]",
+    "LI: Describe the job |  | Create a Bot and tell it what you need. It asks a few setup questions, then saves its name, role, and working instructions.  [botFont, \"botFont Fallback\", Arial, sans-serif 16px 400 ls -0.16px rgb(255, 255, 255)]",
+    "H3: Describe the job  [botFont, \"botFont Fallback\", Arial, sans-serif 16px 500 ls -0.16px rgb(255, 255, 255)]",
+    "P: Create a Bot and tell it what you need. It asks a few setup questions, then saves its name, role, and working instructions.  [botFont, \"botFont Fallback\", Arial, sans-serif 14px 400 ls -0.16px rgb(125, 129, 135)]",
+    "LI: Connect the apps it needs |  | The first time a task needs an app, the Bot asks you to connect it. You sign in yourself, and you can disconnect an app at any time.  [botFont, \"botFont Fallback\", Arial, sans-serif 16px 400 ls -0.16px rgb(255, 255, 255)]",
+    "H3: Connect the apps it needs  [botFont, \"botFont Fallback\", Arial, sans-serif 16px 500 ls -0.16px rgb(255, 255, 255)]",
+    "P: The first time a task needs an app, the Bot asks you to connect it. You sign in yourself, and you can disconnect an app at any time.  [botFont, \"botFont Fallback\", Arial, sans-serif 14px 400 ls -0.16px rgb(125, 129, 135)]",
+    "H3: Let it work  [botFont, \"botFont Fallback\", Arial, sans-serif 16px 500 ls -0.16px rgb(255, 255, 255)]",
+    "H3: Review and approve  [botFont, \"botFont Fallback\", Arial, sans-serif 16px 500 ls -0.16px rgb(255, 255, 255)]",
+    "H2: Message Bots like teammates  [botFont, \"botFont Fallback\", Arial, sans-serif 36px 500 ls -0.36px rgb(255, 255, 255)]",
+    "H2: Work with many Bots at once  [botFont, \"botFont Fallback\", Arial, sans-serif 36px 500 ls -0.36px rgb(255, 255, 255)]",
+    "H3: Krafty Bot works where you work  [botFont, \"botFont Fallback\", Arial, sans-serif 16px 500 ls -0.16px rgb(255, 255, 255)]",
+    "P: Sign Krafty Bot in once and it uses your apps and websites the way you do, including the ones that are a pain to click through.  [botFont, \"botFont Fallback\", Arial, sans-serif 16px 400 ls -0.16px rgb(255, 255, 255)]",
+    "P: Sign in to your help desk. I’ll draft the replies.  [system-ui, -apple-system, \"system-ui\", \"Segoe UI\", 14px 400 ls -0.15px rgb(242, 242, 242)]",
+    "H3: Show a Bot how it’s done  [botFont, \"botFont Fallback\", Arial, sans-serif 16px 500 ls -0.16px rgb(255, 255, 255)]",
+    "P: Walk a Bot through a workflow in chat once. It saves the job as a routine and runs it on schedule after that.  [botFont, \"botFont Fallback\", Arial, sans-serif 16px 400 ls -0.16px rgb(255, 255, 255)]",
+    "H3: Bots get smarter over time  [botFont, \"botFont Fallback\", Arial, sans-serif 16px 500 ls -0.16px rgb(255, 255, 255)]",
+    "P: Bots keep context and learn from each other. Show one a workflow today, hand off the project by Friday.  [botFont, \"botFont Fallback\", Arial, sans-serif 16px 400 ls -0.16px rgb(255, 255, 255)]",
+    "P: Keep launch updates short. Lead with what shipped, then what’s next.  [system-ui, -apple-system, \"system-ui\", \"Segoe UI\", 14px 400 ls -0.15px rgb(242, 242, 242)]",
+    "P: Got it. I’ll use that format for your next recap.  [system-ui, -apple-system, \"system-ui\", \"Segoe UI\", 14px 400 ls -0.15px rgb(242, 242, 242)]",
+    "H3: Connect the Bots  [botFont, \"botFont Fallback\", Arial, sans-serif 16px 500 ls -0.16px rgb(255, 255, 255)]",
+    "P: Put a few Bots in one thread and they pass the work between themselves. You can follow along without approving every step.  [botFont, \"botFont Fallback\", Arial, sans-serif 16px 400 ls -0.16px rgb(255, 255, 255)]",
+    "LI: Researching the launch…  [botFont, \"botFont Fallback\", Arial, sans-serif 16px 400 ls -0.16px rgb(74, 216, 236)]",
+    "LI: Writing the brief…  [botFont, \"botFont Fallback\", Arial, sans-serif 16px 400 ls -0.16px rgb(182, 179, 249)]",
+    "LI: Checking the details…  [botFont, \"botFont Fallback\", Arial, sans-serif 16px 400 ls -0.16px rgb(127, 195, 255)]",
+    "LI: Preparing your recap…  [botFont, \"botFont Fallback\", Arial, sans-serif 16px 400 ls -0.16px rgb(248, 185, 86)]",
+    "H2: Give each Bot a job  [botFont, \"botFont Fallback\", Arial, sans-serif 36px 500 ls -0.36px rgb(244, 244, 244)]",
+    "BUTTON: Sales Outbound  [botFont, \"botFont Fallback\", Arial, sans-serif 14px 500 ls -0.16px rgb(74, 216, 236)]",
+    "BUTTON: Talent Scout  [botFont, \"botFont Fallback\", Arial, sans-serif 14px 500 ls -0.16px rgb(171, 171, 171)]",
+    "BUTTON: Paid Media  [botFont, \"botFont Fallback\", Arial, sans-serif 14px 500 ls -0.16px rgb(171, 171, 171)]",
+    "BUTTON: Expense Manager  [botFont, \"botFont Fallback\", Arial, sans-serif 14px 500 ls -0.16px rgb(171, 171, 171)]",
+    "BUTTON: Product Performance  [botFont, \"botFont Fallback\", Arial, sans-serif 14px 500 ls -0.16px rgb(171, 171, 171)]",
+    "BUTTON: Bug Reproduction  [botFont, \"botFont Fallback\", Arial, sans-serif 14px 500 ls -0.16px rgb(171, 171, 171)]",
+    "BUTTON: Account Health  [botFont, \"botFont Fallback\", Arial, sans-serif 14px 500 ls -0.16px rgb(171, 171, 171)]",
+    "BUTTON: Chief of Staff  [botFont, \"botFont Fallback\", Arial, sans-serif 14px 500 ls -0.16px rgb(171, 171, 171)]",
+    "A: Explore more bots  [botFont, \"botFont Fallback\", Arial, sans-serif 14px 500 ls -0.16px rgb(244, 244, 244)]",
+    "BUTTON:   [\"Cursor Gothic\", -apple-system, \"system-ui\", sans- 14px 400 ls -0.15px rgba(255, 255, 255, 0.68)]",
+    "BUTTON:   [\"Cursor Gothic\", -apple-system, \"system-ui\", sans- 14px 400 ls -0.15px rgba(255, 255, 255, 0.68)]",
+    "P: Saturday 1:08 PM  [\"Cursor Gothic\", -apple-system, \"system-ui\", sans- 12px 400 ls normal rgba(255, 255, 255, 0.58)]",
+    "P: work the pipeline overnight: research the accounts, score the contacts, draft email and linkedin in my voice. nothing goes out without me.  [\"Cursor Gothic\", -apple-system, \"system-ui\", sans- 14px 400 ls -0.15px rgb(255, 255, 255)]",
+    "A:  | Overnight outbound batch  [\"Cursor Gothic\", -apple-system, \"system-ui\", sans- 12px 500 ls -0.15px color(srgb 0.450118 0.774902 0.713804)]",
+    "P: 12:16 PM  [\"Cursor Gothic\", -apple-system, \"system-ui\", sans- 12px 400 ls normal rgba(255, 255, 255, 0.58)]",
+    "P: overnight batch ready: 36 queued in your voice, 4 skipped as recently touched. nothing sent.  [\"Cursor Gothic\", -apple-system, \"system-ui\", sans- 14px 400 ls -0.15px rgb(242, 242, 242)]",
+    "P: Hi Dana,  [\"Cursor Gothic\", -apple-system, \"system-ui\", sans- 14px 400 ls -0.15px rgb(242, 242, 242)]",
+    "P: Saw Northwind opened three infra roles this month. Usually that means the migration you mentioned in March is finally moving.  [\"Cursor Gothic\", -apple-system, \"system-ui\", sans- 14px 400 ls -0.15px rgb(242, 242, 242)]",
+    "P: We cut the same work in half for two teams your size. Worth fifteen minutes next week?  [\"Cursor Gothic\", -apple-system, \"system-ui\", sans- 14px 400 ls -0.15px rgb(242, 242, 242)]",
+    "P: Sam  [\"Cursor Gothic\", -apple-system, \"system-ui\", sans- 14px 400 ls -0.15px rgb(242, 242, 242)]",
+    "A: Send email  [\"Cursor Gothic\", -apple-system, \"system-ui\", sans- 13px 500 ls -0.15px rgb(20, 20, 20)]",
+    "A: Discard  [\"Cursor Gothic\", -apple-system, \"system-ui\", sans- 13px 500 ls -0.15px rgb(242, 242, 242)]",
+    "P: send the top 10 emails, they look good  [\"Cursor Gothic\", -apple-system, \"system-ui\", sans- 14px 400 ls -0.15px rgb(255, 255, 255)]",
+    "P: top 10 sending. rest stay queued.  [\"Cursor Gothic\", -apple-system, \"system-ui\", sans- 14px 400 ls -0.15px rgb(242, 242, 242)]",
+    "A:   [\"Cursor Gothic\", -apple-system, \"system-ui\", sans- 14px 400 ls -0.15px rgba(255, 255, 255, 0.68)]",
+    "A: Message Sales... |   [\"Cursor Gothic\", -apple-system, \"system-ui\", sans- 14px 400 ls -0.15px rgba(255, 255, 255, 0.36)]",
+    "A: Explore more bots  [botFont, \"botFont Fallback\", Arial, sans-serif 14px 500 ls -0.16px rgb(244, 244, 244)]",
+    "H2: Pricing  [botFont, \"botFont Fallback\", Arial, sans-serif 36px 500 ls -0.36px rgb(255, 255, 255)]",
+    "H2: Free  [botFont, \"botFont Fallback\", Arial, sans-serif 36px 500 ls -0.36px rgb(255, 255, 255)]",
+    "P: Try Krafty with one bot, one connected app, and a one-time $1 AI allowance. Cloud computers require a paid plan.  [botFont, \"botFont Fallback\", Arial, sans-serif 13px 500 ls normal rgb(255, 255, 255)]",
+    "P: $0  [botFont, \"botFont Fallback\", Arial, sans-serif 24px 600 ls normal rgb(255, 255, 255)]",
+    "P: Always free  [botFont, \"botFont Fallback\", Arial, sans-serif 11px 500 ls normal rgb(255, 255, 255)]",
+    "LI: Teammates  [botFont, \"botFont Fallback\", Arial, sans-serif 16px 400 ls -0.16px rgb(255, 255, 255)]",
+    "P: Teammates  [botFont, \"botFont Fallback\", Arial, sans-serif 13px 400 ls normal rgb(255, 255, 255)]",
+    "LI: 1 connected app  [botFont, \"botFont Fallback\", Arial, sans-serif 16px 400 ls -0.16px rgb(255, 255, 255)]",
+    "P: 1 connected app  [botFont, \"botFont Fallback\", Arial, sans-serif 13px 400 ls normal rgb(255, 255, 255)]",
+    "LI: $1 one-time AI allowance  [botFont, \"botFont Fallback\", Arial, sans-serif 16px 400 ls -0.16px rgb(255, 255, 255)]",
+    "P: $1 one-time AI allowance  [botFont, \"botFont Fallback\", Arial, sans-serif 13px 400 ls normal rgb(255, 255, 255)]",
+    "BUTTON: Subscribe  [botFont, \"botFont Fallback\", Arial, sans-serif 13px 500 ls normal rgb(255, 255, 255)]",
+    "H2: Krafty Pro  [botFont, \"botFont Fallback\", Arial, sans-serif 36px 500 ls -0.36px rgb(255, 255, 255)]",
+    "P: AI teammates with cloud computers. First 50 new subscribers can use FOUNDING50 for $8/month while this subscription stays on this plan.  [botFont, \"botFont Fallback\", Arial, sans-serif 13px 500 ls normal rgb(255, 255, 255)]",
+    "P: $20  [botFont, \"botFont Fallback\", Arial, sans-serif 24px 600 ls normal rgb(255, 255, 255)]",
+    "P: month  [botFont, \"botFont Fallback\", Arial, sans-serif 11px 500 ls normal rgb(255, 255, 255)]",
+    "P: Only billed monthly  [botFont, \"botFont Fallback\", Arial, sans-serif 11px 500 ls normal rgb(255, 255, 255)]",
+    "LI: Teammates  [botFont, \"botFont Fallback\", Arial, sans-serif 16px 400 ls -0.16px rgb(255, 255, 255)]",
+    "P: Teammates  [botFont, \"botFont Fallback\", Arial, sans-serif 13px 400 ls normal rgb(255, 255, 255)]",
+    "LI: Cloud computers  [botFont, \"botFont Fallback\", Arial, sans-serif 16px 400 ls -0.16px rgb(255, 255, 255)]",
+    "P: Cloud computers  [botFont, \"botFont Fallback\", Arial, sans-serif 13px 400 ls normal rgb(255, 255, 255)]",
+    "LI: Saved memory across chats  [botFont, \"botFont Fallback\", Arial, sans-serif 16px 400 ls -0.16px rgb(255, 255, 255)]",
+    "P: Saved memory across chats  [botFont, \"botFont Fallback\", Arial, sans-serif 13px 400 ls normal rgb(255, 255, 255)]",
+    "LI: Connected apps and tools  [botFont, \"botFont Fallback\", Arial, sans-serif 16px 400 ls -0.16px rgb(255, 255, 255)]",
+    "P: Connected apps and tools  [botFont, \"botFont Fallback\", Arial, sans-serif 13px 400 ls normal rgb(255, 255, 255)]",
+    "LI: Group chats and teammate handoffs  [botFont, \"botFont Fallback\", Arial, sans-serif 16px 400 ls -0.16px rgb(255, 255, 255)]",
+    "P: Group chats and teammate handoffs  [botFont, \"botFont Fallback\", Arial, sans-serif 13px 400 ls normal rgb(255, 255, 255)]",
+    "LI: Persistent files and apps  [botFont, \"botFont Fallback\", Arial, sans-serif 16px 400 ls -0.16px rgb(255, 255, 255)]",
+    "P: Persistent files and apps  [botFont, \"botFont Fallback\", Arial, sans-serif 13px 400 ls normal rgb(255, 255, 255)]",
+    "LI: $10 AI usage per billing period  [botFont, \"botFont Fallback\", Arial, sans-serif 16px 400 ls -0.16px rgb(255, 255, 255)]",
+    "P: $10 AI usage per billing period  [botFont, \"botFont Fallback\", Arial, sans-serif 13px 400 ls normal rgb(255, 255, 255)]",
+    "LI: 50 computer hours per billing period  [botFont, \"botFont Fallback\", Arial, sans-serif 16px 400 ls -0.16px rgb(255, 255, 255)]",
+    "P: 50 computer hours per billing period  [botFont, \"botFont Fallback\", Arial, sans-serif 13px 400 ls normal rgb(255, 255, 255)]",
+    "BUTTON: Subscribe  [botFont, \"botFont Fallback\", Arial, sans-serif 13px 500 ls normal rgb(255, 255, 255)]",
+    "A: View your usage  [botFont, \"botFont Fallback\", Arial, sans-serif 14px 400 ls -0.16px rgb(255, 255, 255)]",
+    "H2: Open Krafty Bot  [botFont, \"botFont Fallback\", Arial, sans-serif 36px 500 ls -0.36px rgb(255, 255, 255)]",
+    "P: The same team on your laptop and your phone.  [botFont, \"botFont Fallback\", Arial, sans-serif 18px 400 ls -0.16px rgb(125, 129, 135)]",
+    "A: Open the app | Desktop and mobile browsers  [botFont, \"botFont Fallback\", Arial, sans-serif 16px 400 ls -0.16px rgb(255, 255, 255)]",
+    "A: Create your team | Your own AI workspace  [botFont, \"botFont Fallback\", Arial, sans-serif 16px 400 ls -0.16px rgb(255, 255, 255)]",
+    "H2: Make Krafty Bot your own  [botFont, \"botFont Fallback\", Arial, sans-serif 36px 500 ls -0.36px rgb(255, 255, 255)]",
+    "P: Give each teammate a role and bring them into the work you already do every day.  [botFont, \"botFont Fallback\", Arial, sans-serif 18px 400 ls -0.16px rgb(255, 255, 255)]",
+    "A: Explore your workspace  [botFont, \"botFont Fallback\", Arial, sans-serif 16px 400 ls -0.16px rgb(255, 255, 255)]",
+    "H2: FAQs  [botFont, \"botFont Fallback\", Arial, sans-serif 36px 500 ls -0.36px rgb(255, 255, 255)]",
+    "H3: What is Krafty Bot?  [botFont, \"botFont Fallback\", Arial, sans-serif 16px 400 ls -0.16px rgb(255, 255, 255)]",
+    "BUTTON: What is Krafty Bot?  [botFont, \"botFont Fallback\", Arial, sans-serif 16px 400 ls -0.16px rgb(255, 255, 255)]",
+    "H3: How is Krafty Bot different from AI assistants?  [botFont, \"botFont Fallback\", Arial, sans-serif 16px 400 ls -0.16px rgb(255, 255, 255)]",
+    "BUTTON: How is Krafty Bot different from AI assistants?  [botFont, \"botFont Fallback\", Arial, sans-serif 16px 400 ls -0.16px rgb(255, 255, 255)]",
+    "H3: Does a Bot change things in my apps without asking?  [botFont, \"botFont Fallback\", Arial, sans-serif 16px 400 ls -0.16px rgb(255, 255, 255)]",
+    "BUTTON: Does a Bot change things in my apps without asking?  [botFont, \"botFont Fallback\", Arial, sans-serif 16px 400 ls -0.16px rgb(255, 255, 255)]",
+    "H3: Who can use Krafty Bot?  [botFont, \"botFont Fallback\", Arial, sans-serif 16px 400 ls -0.16px rgb(255, 255, 255)]",
+    "BUTTON: Who can use Krafty Bot?  [botFont, \"botFont Fallback\", Arial, sans-serif 16px 400 ls -0.16px rgb(255, 255, 255)]",
+    "H3: Where do I talk to Krafty Bot?  [botFont, \"botFont Fallback\", Arial, sans-serif 16px 400 ls -0.16px rgb(255, 255, 255)]",
+    "BUTTON: Where do I talk to Krafty Bot?  [botFont, \"botFont Fallback\", Arial, sans-serif 16px 400 ls -0.16px rgb(255, 255, 255)]",
+    "H3: How much does Krafty Bot cost?  [botFont, \"botFont Fallback\", Arial, sans-serif 16px 400 ls -0.16px rgb(255, 255, 255)]",
+    "BUTTON: How much does Krafty Bot cost?  [botFont, \"botFont Fallback\", Arial, sans-serif 16px 400 ls -0.16px rgb(255, 255, 255)]",
+    "H3: Do Bots share one computer?  [botFont, \"botFont Fallback\", Arial, sans-serif 16px 400 ls -0.16px rgb(255, 255, 255)]",
+    "BUTTON: Do Bots share one computer?  [botFont, \"botFont Fallback\", Arial, sans-serif 16px 400 ls -0.16px rgb(255, 255, 255)]",
+    "H3: Can Bots keep working when I close my browser?  [botFont, \"botFont Fallback\", Arial, sans-serif 16px 400 ls -0.16px rgb(255, 255, 255)]",
+    "BUTTON: Can Bots keep working when I close my browser?  [botFont, \"botFont Fallback\", Arial, sans-serif 16px 400 ls -0.16px rgb(255, 255, 255)]",
+    "H3: Do Bots remember everything?  [botFont, \"botFont Fallback\", Arial, sans-serif 16px 400 ls -0.16px rgb(255, 255, 255)]",
+    "BUTTON: Do Bots remember everything?  [botFont, \"botFont Fallback\", Arial, sans-serif 16px 400 ls -0.16px rgb(255, 255, 255)]"
+  ],
+  "images": [],
+  "videos": [],
+  "og_image": "https://kraftybot.app/brand/krafty-social-v1.jpg",
+  "favicons": [
+    "https://kraftybot.app/favicon.ico?favicon.29hztlllbw644.ico",
+    "https://kraftybot.app/icon.png?icon.1pkre4ah2x8js.png",
+    "https://kraftybot.app/apple-icon.png?apple-icon.31vybtp2etokw.png"
+  ],
+  "header_svgs": [
+    "<svg viewBox=\"8 8 86 84\" aria-hidden=\"true\" class=\"shrink-0 overflow-visible h-[1.1em] w-auto\"><mask id=\"_R_1aqnmnb_\" maskUnits=\"userSpaceOnUse\" x=\"0\" y=\"0\" width=\"100\" height=\"100\"><path d=\"M21.5 37.5C20 28 28 21.5 37 22.5C42 23 45 24 50 22C56 20 63 13 70 13.5C79 14 79.5 25 77.8 37.5C86 41 89 47 88.5 53C88 60 84 64 79.4 66.5C81 74 79 84 68 86C61 87 56 82 51 80.5C45 82 39 87 32 86C21 84 18 75 20.7 66.8C14 63 11.5 57 12 52C12.5 46 16 40 21.5 37.5Z\" fill=\"#fff\"></path><g stroke=\"#000\" stroke-linecap=\"round\"><path d=\"M37.6 45.5 39.4 58.5M62.6 45.5 60.8 58.5\" stroke-width=\"8.5\"></path><path d=\"M21.5 37.5C20 28 28 21.5 37 22.5C42 23 45 24 50 22C56 20 63 13 70 13.5C79 14 79.5 25 77.8 37.5C86 41 89 47 88.5 53C88 60 84 64 79.4 66.5C81 74 79 84 68 86C61 87 56 82 51 80.5C45 82 39 87 32 86C21 84 18 75 20.7 66.8C14 63 11.5 57 12 52C12.5 46 16 40 21.5 37.5Z\" fill=\"none\" stroke-width=\"2.8\" stroke-dasharray=\"5 4\" transform=\"translate(50 51) scale(.82) translate(-50 -51)\"></path></g></mask><rect width=\"100\" height=\"100\" fill=\"currentColor\" mask=\"url(#_R_1aqnmnb_)\" transform=\"rotate(-8 50 50)\"></rect></svg>",
+    "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-menu\" aria-hidden=\"true\"><path d=\"M4 5h16\"></path><path d=\"M4 12h16\"></path><path d=\"M4 19h16\"></path></svg>",
+    "<svg aria-hidden=\"true\" viewBox=\"-15 -15 259 259\" style=\"color:#f7a32f;overflow:visible\" data-state=\"idle\" data-shape=\"blob\"><defs><clipPath id=\"_R_ail32nmnb_-face\"><path d=\"M228.541 114.228C228.541 130.133 225.184 145.994 218.738 160.534C212.674 174.217 203.904 186.669 193.065 196.988C155.933 232.34 99.497 238.596 55.5255 212.24C45.097 205.99 35.6851 198.072 27.7451 188.866C19.1926 178.953 12.3686 167.569 7.65781 155.351C2.60712 142.264 0 128.257 0 114.228C0 98.3219 3.35751 82.4611 9.80315 67.9215C15.8672 54.2382 24.6377 41.7862 35.4767 31.4668C72.6081 -3.88483 129.044 -10.1413 173.016 16.2153C183.444 22.4653 192.856 30.3829 200.796 39.5896C209.349 49.5018 216.173 60.8859 220.883 73.1037C225.934 86.1906 228.541 100.198 228.541 114.228Z\"></path></clipPath></defs><g></g><g></g><path fill=\"currentColor\" d=\"M228.54 114.27C228.54 116.76 228.46 119.26 228.3 121.74C228.13 124.23 227.89 126.72 227.56 129.19C227.24 131.66 226.83 134.12 226.35 136.56C225.86 139.01 225.29 141.44 224.65 143.85C224 146.25 223.28 148.64 222.48 151C221.68 153.36 220.8 155.7 219.84 158C218.89 160.3 217.86 162.58 216.76 164.81C215.65 167.05 214.48 169.25 213.23 171.41C211.99 173.56 210.67 175.68 209.28 177.76C207.9 179.83 206.44 181.86 204.93 183.83C203.41 185.81 201.83 187.74 200.18 189.61C198.54 191.49 196.83 193.31 195.07 195.07C193.31 196.83 191.49 198.54 189.61 200.18C187.74 201.83 185.81 203.41 183.83 204.93C181.86 206.44 179.83 207.9 177.76 209.28C175.68 210.67 173.56 211.99 171.41 213.23C169.25 214.48 167.05 215.65 164.81 216.76C162.58 217.86 160.3 218.89 158 219.84C155.7 220.8 153.36 221.68 151 222.48C148.64 223.28 146.25 224 143.85 224.65C141.44 225.29 139.01 225.86 136.56 226.35C134.12 226.83 131.66 227.24 129.19 227.56C126.72 227.89 124.23 228.13 121.74 228.3C119.26 228.46 116.76 228.54 114.27 228.54C111.78 228.54 109.28 228.46 106.8 228.3C104.31 228.13 101.83 227.89 99.36 227.56C96.89 227.24 94.42 226.83 91.98 226.35C89.53 225.86 87.1 225.29 84.7 224.65C82.29 224 79.9 223.28 77.54 222.48C75.18 221.68 72.84 220.8 70.54 219.84C68.24 218.89 65.96 217.86 63.73 216.76C61.5 215.65 59.29 214.48 57.14 213.23C54.98 211.99 52.86 210.67 50.79 209.28C48.71 207.9 46.68 206.44 44.71 204.93C42.73 203.41 40.8 201.83 38.93 200.18C37.05 198.54 35.23 196.83 33.47 195.07C31.71 193.31 30 191.49 28.36 189.61C26.71 187.74 25.13 185.81 23.61 183.83C22.1 181.86 20.64 179.83 19.26 177.76C17.87 175.68 16.55 173.56 15.31 171.41C14.06 169.25 12.89 167.05 11.78 164.81C10.68 162.58 9.65 160.3 8.7 158C7.74 155.7 6.87 153.36 6.06 151C5.26 148.64 4.54 146.25 3.89 143.85C3.25 141.44 2.68 139.01 2.2 136.56C1.71 134.12 1.3 131.66 0.98 129.19C0.65 126.72 0.41 124.23 0.24 121.74C0.08 119.26 0 116.76 0 114.27C0 111.78 0.08 109.28 0.24 106.8C0.41 104.31 0.65 101.83 0.98 99.36C1.3 96.89 1.71 94.42 2.2 91.98C2.68 89.53 3.25 87.1 3.89 84.7C4.54 82.29 5.26 79.9 6.06 77.54C6.87 75.18 7.74 72.84 8.7 70.54C9.65 68.24 10.68 65.96 11.78 63.73C12.89 61.5 14.06 59.29 15.31 57.14C16.55 54.98 17.87 52.86 19.26 50.79C20.64 48.71 22.1 46.68 23.61 44.71C25.13 42.73 26.71 40.8 28.36 38.93C30 37.05 31.71 35.23 33.47 33.47C35.23 31.71 37.05 30 38.93 28.36C40.8 26.71 42.73 25.13 44.71 23.61C46.68 22.1 48.71 20.64 50.79 19.26C52.86 17.87 54.98 16.55 57.14 15.31C59.29 14.06 61.5 12.89 63.73 11.78C65.96 10.68 68.24 9.65 70.54 8.7C72.84 7.74 75.18 6.87 77.54 6.06C79.9 5.26 82.29 4.54 84.7 3.89C87.1 3.25 89.53 2.68 91.98 2.2C94.42 1.71 96.89 1.3 99.36 0.98C101.83 0.65 104.31 0.41 106.8 0.24C109.28 0.08 111.78 0 114.27 0C116.76 0 119.26 0.08 121.74 0.24C124.23 0.41 126.72 0.65 129.19 0.98C131.66 1.3 134.12 1.71 136.56 2.2C139.01 2.68 141.44 3.25 143.85 3.89C146.25 4.54 148.64 5.26 151 6.06C153.36 6.87 155.7 7.74 158 8.7C160.3 9.65 162.58 10.68 164.81 11.78C167.05 12.89 169.25 14.06 171.41 15.31C173.56 16.55 175.68 17.87 177.76 19.26C179.83 20.64 181.86 22.1 183.83 23.61C185.81 25.13 187.74 26.71 189.61 28.36C191.49 30 193.31 31.71 195.07 33.47C196.83 35.23 198.54 37.05 200.18 38.93C201.83 40.8 203.41 42.73 204.93 44.71C206.44 46.68 207.9 48.71 209.28 50.79C210.67 52.86 211.99 54.98 213.23 57.14C214.48 59.29 215.65 61.5 216.76 63.73C217.86 65.96 218.89 68.24 219.84 70.54C220.8 72.84 221.68 75.18 222.48 77.54C223.28 79.9 224 82.29 224.65 84.7C225.29 87.1 225.86 89.53 226.35 91.98C226.83 94.42 227.24 96.89 227.56 99.36C227.89 101.83 228.13 104.31 228.3 106.8C228.46 109.28 228.54 111.78 228.54 114.27Z\" opacity=\"0\" transform=\"translate(114.27049999999998 114.2705) scale(0) translate(-114.2705 -114.2705)\"></path><path fill=\"currentColor\" d=\"M228.54 114.27C228.54 116.76 228.46 119.26 228.3 121.74C228.13 124.23 227.89 126.72 227.56 129.19C227.24 131.66 226.83 134.12 226.35 136.56C225.86 139.01 225.29 141.44 224.65 143.85C224 146.25 223.28 148.64 222.48 151C221.68 153.36 220.8 155.7 219.84 158C218.89 160.3 217.86 162.58 216.76 164.81C215.65 167.05 214.48 169.25 213.23 171.41C211.99 173.56 210.67 175.68 209.28 177.76C207.9 179.83 206.44 181.86 204.93 183.83C203.41 185.81 201.83 187.74 200.18 189.61C198.54 191.49 196.83 193.31 195.07 195.07C193.31 196.83 191.49 198.54 189.61 200.18C187.74 201.83 185.81 203.41 183.83 204.93C181.86 206.44 179.83 207.9 177.76 209.28C175.68 210.67 173.56 211.99 171.41 213.23C169.25 214.48 167.05 215.65 164.81 216.76C162.58 217.86 160.3 218.89 158 219.84C155.7 220.8 153.36 221.68 151 222.48C148.64 223.28 146.25 224 143.85 224.65C141.44 225.29 139.01 225.86 136.56 226.35C134.12 226.83 131.66 227.24 129.19 227.56C126.72 227.89 124.23 228.13 121.74 228.3C119.26 228.46 116.76 228.54 114.27 228.54C111.78 228.54 109.28 228.46 106.8 228.3C104.31 228.13 101.83 227.89 99.36 227.56C96.89 227.24 94.42 226.83 91.98 226.35C89.53 225.86 87.1 225.29 84.7 224.65C82.29 224 79.9 223.28 77.54 222.48C75.18 221.68 72.84 220.8 70.54 219.84C68.24 218.89 65.96 217.86 63.73 216.76C61.5 215.65 59.29 214.48 57.14 213.23C54.98 211.99 52.86 210.67 50.79 209.28C48.71 207.9 46.68 206.44 44.71 204.93C42.73 203.41 40.8 201.83 38.93 200.18C37.05 198.54 35.23 196.83 33.47 195.07C31.71 193.31 30 191.49 28.36 189.61C26.71 187.74 25.13 185.81 23.61 183.83C22.1 181.86 20.64 179.83 19.26 177.76C17.87 175.68 16.55 173.56 15.31 171.41C14.06 169.25 12.89 167.05 11.78 164.81C10.68 162.58 9.65 160.3 8.7 158C7.74 155.7 6.87 153.36 6.06 151C5.26 148.64 4.54 146.25 3.89 143.85C3.25 141.44 2.68 139.01 2.2 136.56C1.71 134.12 1.3 131.66 0.98 129.19C0.65 126.72 0.41 124.23 0.24 121.74C0.08 119.26 0 116.76 0 114.27C0 111.78 0.08 109.28 0.24 106.8C0.41 104.31 0.65 101.83 0.98 99.36C1.3 96.89 1.71 94.42 2.2 91.98C2.68 89.53 3.25 87.1 3.89 84.7C4.54 82.29 5.26 79.9 6.06 77.54C6.87 75.18 7.74 72.84 8.7 70.54C9.65 68.24 10.68 65.96 11.78 63.73C12.89 61.5 14.06 59.29 15.31 57.14C16.55 54.98 17.87 52.86 19.26 50.79C20.64 48.71 22.1 46.68 23.61 44.71C25.13 42.73 26.71 40.8 28.36 38.93C30 37.05 31.71 35.23 33.47 33.47C35.23 31.71 37.05 30 38.93 28.36C40.8 26.71 42.73 25.13 44.71 23.61C46.68 22.1 48.71 20.64 50.79 19.26C52.86 17.87 54.98 16.55 57.14 15.31C59.29 14.06 61.5 12.89 63.73 11.78C65.96 10.68 68.24 9.65 70.54 8.7C72.84 7.74 75.18 6.87 77.54 6.06C79.9 5.26 82.29 4.54 84.7 3.89C87.1 3.25 89.53 2.68 91.98 2.2C94.42 1.71 96.89 1.3 99.36 0.98C101.83 0.65 104.31 0.41 106.8 0.24C109.28 0.08 111.78 0 114.27 0C116.76 0 119.26 0.08 121.74 0.24C124.23 0.41 126.72 0.65 129.19 0.98C131.66 1.3 134.12 1.71 136.56 2.2C139.01 2.68 141.44 3.25 143.85 3.89C146.25 4.54 148.64 5.26 151 6.06C153.36 6.87 155.7 7.74 158 8.7C160.3 9.65 162.58 10.68 164.81 11.78C167.05 12.89 169.25 14.06 171.41 15.31C173.56 16.55 175.68 17.87 177.76 19.26C179.83 20.64 181.86 22.1 183.83 23.61C185.81 25.13 187.74 26.71 189.61 28.36C191.49 30 193.31 31.71 195.07 33.47C196.83 35.23 198.54 37.05 200.18 38.93C201.83 40.8 203.41 42.73 204.93 44.71C206.44 46.68 207.9 48.71 209.28 50.79C210.67 52.86 211.99 54.98 213.23 57.14C214.48 59.29 215.65 61.5 216.76 63.73C217.86 65.96 218.89 68.24 219.84 70.54C220.8 72.84 221.68 75.18 222.48 77.54C223.28 79.9 224 82.29 224.65 84.7C225.29 87.1 225.86 89.53 226.35 91.98C226.83 94.42 227.24 96.89 227.56 99.36C227.89 101.83 228.13 104.31 228.3 106.8C228.46 109.28 228.54 111.78 228.54 114.27Z\" opacity=\"0\" transform=\"translate(114.27050000000001 114.2705) scale(0) translate(-114.2705 -114.2705)\"></path><circle fill=\"currentColor\" cx=\"114.58506618211855\" cy=\"116.97373608231177\" r=\"0\" opacity=\"0\"></circle><circle fill=\"currentColor\" cx=\"104.9610450795198\" cy=\"110.97117879285491\" r=\"0\" opacity=\"0\"></circle><circle fill=\"currentColor\" cx=\"132.4373566508708\" cy=\"103.36077199413606\" r=\"0\" opacity=\"0\"></circle><circle fill=\"currentColor\" cx=\"119.98596184748077\" cy=\"148.16885141142782\" r=\"0\" opacity=\"0\"></circle><circle fill=\"currentColor\" cx=\"47.23241824243989\" cy=\"93.11220885486148\" r=\"0\" opacity=\"0\"></circle><g transform=\"translate(115.19518731857379 114.25488956719141) rotate(-0.2816490331235423) scale(1.040524017467249 1.0424612879198336) translate(-114.2705 -114.2705)\" opacity=\"1\"><path fill=\"currentColor\" d=\"M228.541 114.228C228.541 130.133 225.184 145.994 218.738 160.534C212.674 174.217 203.904 186.669 193.065 196.988C155.933 232.34 99.497 238.596 55.5255 212.24C45.097 205.99 35.6851 198.072 27.7451 188.866C19.1926 178.953 12.3686 167.569 7.65781 155.351C2.60712 142.264 0 128.257 0 114.228C0 98.3219 3.35751 82.4611 9.80315 67.9215C15.8672 54.2382 24.6377 41.7862 35.4767 31.4668C72.6081 -3.88483 129.044 -10.1413 173.016 16.2153C183.444 22.4653 192.856 30.3829 200.796 39.5896C209.349 49.5018 216.173 60.8859 220.883 73.1037C225.934 86.1906 228.541 100.198 228.541 114.228Z\"></path><g clip-path=\"url(#_R_ail32nmnb_-face)\"><g opacity=\"1\"><path fill=\"var(--bg, #0a0a0c)\" d=\"M151.23 65.84L152.24 67.79L153.46 70.13L154.99 73.08L156.04 76.52L156.03 80.02L155.02 83.35L153.11 86.25L150.46 88.53L147.27 90.01L143.77 90.59L140.23 90.21L136.92 88.89L134.07 86.70L131.95 83.75L130.46 80.90L129.28 78.63L128.28 76.72L127.40 75.04L126.60 73.50L125.83 72.03L125.08 70.58L124.31 69.11L123.50 67.55L122.61 65.84L121.59 63.89L120.37 61.56L118.84 58.61L117.79 55.17L117.80 51.67L118.81 48.34L120.72 45.44L123.37 43.16L126.56 41.68L130.06 41.10L133.60 41.48L136.92 42.80L139.76 44.99L141.88 47.94L143.37 50.79L144.55 53.06L145.55 54.97L146.43 56.65L147.23 58.19L148.00 59.66L148.75 61.10L149.52 62.58L150.33 64.14Z\" style=\"transition:fill .6s\"></path></g><g opacity=\"1\"><path fill=\"var(--bg, #0a0a0c)\" d=\"M194.19 56.60L194.92 57.96L195.79 59.60L196.90 61.68L198.42 64.53L200.72 68.85L201.60 73.41L200.40 76.99L197.94 79.59L194.67 81.01L190.99 81.04L187.32 79.41L184.21 75.32L182.18 71.51L180.80 68.92L179.76 66.98L178.94 65.43L178.24 64.12L177.63 62.97L177.06 61.91L176.52 60.89L175.99 59.89L175.44 58.87L174.87 57.79L174.23 56.60L173.51 55.24L172.63 53.60L171.52 51.52L170.00 48.67L167.71 44.36L166.83 39.80L168.02 36.21L170.48 33.61L173.75 32.19L177.44 32.17L181.11 33.79L184.21 37.88L186.24 41.69L187.63 44.28L188.66 46.22L189.49 47.77L190.18 49.08L190.80 50.23L191.37 51.30L191.90 52.31L192.44 53.31L192.98 54.33L193.56 55.41Z\" style=\"transition:fill .6s\"></path></g></g></g><g></g></svg>",
+    "<svg aria-hidden=\"true\" viewBox=\"-15 -15 259 259\" class=\"role-showcase-module__x9-SNq__headerAvatar\" style=\"color:#54b9a6;overflow:visible\" data-state=\"idle\" data-shape=\"blob\"><defs><clipPath id=\"_R_32qp92nmnb_-face\"><path d=\"M228.541 114.228C228.541 130.133 225.184 145.994 218.738 160.534C212.674 174.217 203.904 186.669 193.065 196.988C155.933 232.34 99.497 238.596 55.5255 212.24C45.097 205.99 35.6851 198.072 27.7451 188.866C19.1926 178.953 12.3686 167.569 7.65781 155.351C2.60712 142.264 0 128.257 0 114.228C0 98.3219 3.35751 82.4611 9.80315 67.9215C15.8672 54.2382 24.6377 41.7862 35.4767 31.4668C72.6081 -3.88483 129.044 -10.1413 173.016 16.2153C183.444 22.4653 192.856 30.3829 200.796 39.5896C209.349 49.5018 216.173 60.8859 220.883 73.1037C225.934 86.1906 228.541 100.198 228.541 114.228Z\"></path></clipPath></defs><g></g><g></g><path fill=\"currentColor\" d=\"M228.54 114.27C228.54 116.76 228.46 119.26 228.3 121.74C228.13 124.23 227.89 126.72 227.56 129.19C227.24 131.66 226.83 134.12 226.35 136.56C225.86 139.01 225.29 141.44 224.65 143.85C224 146.25 223.28 148.64 222.48 151C221.68 153.36 220.8 155.7 219.84 158C218.89 160.3 217.86 162.58 216.76 164.81C215.65 167.05 214.48 169.25 213.23 171.41C211.99 173.56 210.67 175.68 209.28 177.76C207.9 179.83 206.44 181.86 204.93 183.83C203.41 185.81 201.83 187.74 200.18 189.61C198.54 191.49 196.83 193.31 195.07 195.07C193.31 196.83 191.49 198.54 189.61 200.18C187.74 201.83 185.81 203.41 183.83 204.93C181.86 206.44 179.83 207.9 177.76 209.28C175.68 210.67 173.56 211.99 171.41 213.23C169.25 214.48 167.05 215.65 164.81 216.76C162.58 217.86 160.3 218.89 158 219.84C155.7 220.8 153.36 221.68 151 222.48C148.64 223.28 146.25 224 143.85 224.65C141.44 225.29 139.01 225.86 136.56 226.35C134.12 226.83 131.66 227.24 129.19 227.56C126.72 227.89 124.23 228.13 121.74 228.3C119.26 228.46 116.76 228.54 114.27 228.54C111.78 228.54 109.28 228.46 106.8 228.3C104.31 228.13 101.83 227.89 99.36 227.56C96.89 227.24 94.42 226.83 91.98 226.35C89.53 225.86 87.1 225.29 84.7 224.65C82.29 224 79.9 223.28 77.54 222.48C75.18 221.68 72.84 220.8 70.54 219.84C68.24 218.89 65.96 217.86 63.73 216.76C61.5 215.65 59.29 214.48 57.14 213.23C54.98 211.99 52.86 210.67 50.79 209.28C48.71 207.9 46.68 206.44 44.71 204.93C42.73 203.41 40.8 201.83 38.93 200.18C37.05 198.54 35.23 196.83 33.47 195.07C31.71 193.31 30 191.49 28.36 189.61C26.71 187.74 25.13 185.81 23.61 183.83C22.1 181.86 20.64 179.83 19.26 177.76C17.87 175.68 16.55 173.56 15.31 171.41C14.06 169.25 12.89 167.05 11.78 164.81C10.68 162.58 9.65 160.3 8.7 158C7.74 155.7 6.87 153.36 6.06 151C5.26 148.64 4.54 146.25 3.89 143.85C3.25 141.44 2.68 139.01 2.2 136.56C1.71 134.12 1.3 131.66 0.98 129.19C0.65 126.72 0.41 124.23 0.24 121.74C0.08 119.26 0 116.76 0 114.27C0 111.78 0.08 109.28 0.24 106.8C0.41 104.31 0.65 101.83 0.98 99.36C1.3 96.89 1.71 94.42 2.2 91.98C2.68 89.53 3.25 87.1 3.89 84.7C4.54 82.29 5.26 79.9 6.06 77.54C6.87 75.18 7.74 72.84 8.7 70.54C9.65 68.24 10.68 65.96 11.78 63.73C12.89 61.5 14.06 59.29 15.31 57.14C16.55 54.98 17.87 52.86 19.26 50.79C20.64 48.71 22.1 46.68 23.61 44.71C25.13 42.73 26.71 40.8 28.36 38.93C30 37.05 31.71 35.23 33.47 33.47C35.23 31.71 37.05 30 38.93 28.36C40.8 26.71 42.73 25.13 44.71 23.61C46.68 22.1 48.71 20.64 50.79 19.26C52.86 17.87 54.98 16.55 57.14 15.31C59.29 14.06 61.5 12.89 63.73 11.78C65.96 10.68 68.24 9.65 70.54 8.7C72.84 7.74 75.18 6.87 77.54 6.06C79.9 5.26 82.29 4.54 84.7 3.89C87.1 3.25 89.53 2.68 91.98 2.2C94.42 1.71 96.89 1.3 99.36 0.98C101.83 0.65 104.31 0.41 106.8 0.24C109.28 0.08 111.78 0 114.27 0C116.76 0 119.26 0.08 121.74 0.24C124.23 0.41 126.72 0.65 129.19 0.98C131.66 1.3 134.12 1.71 136.56 2.2C139.01 2.68 141.44 3.25 143.85 3.89C146.25 4.54 148.64 5.26 151 6.06C153.36 6.87 155.7 7.74 158 8.7C160.3 9.65 162.58 10.68 164.81 11.78C167.05 12.89 169.25 14.06 171.41 15.31C173.56 16.55 175.68 17.87 177.76 19.26C179.83 20.64 181.86 22.1 183.83 23.61C185.81 25.13 187.74 26.71 189.61 28.36C191.49 30 193.31 31.71 195.07 33.47C196.83 35.23 198.54 37.05 200.18 38.93C201.83 40.8 203.41 42.73 204.93 44.71C206.44 46.68 207.9 48.71 209.28 50.79C210.67 52.86 211.99 54.98 213.23 57.14C214.48 59.29 215.65 61.5 216.76 63.73C217.86 65.96 218.89 68.24 219.84 70.54C220.8 72.84 221.68 75.18 222.48 77.54C223.28 79.9 224 82.29 224.65 84.7C225.29 87.1 225.86 89.53 226.35 91.98C226.83 94.42 227.24 96.89 227.56 99.36C227.89 101.83 228.13 104.31 228.3 106.8C228.46 109.28 228.54 111.78 228.54 114.27Z\" opacity=\"0\" transform=\"translate(114.27049999999998 114.2705) scale(0) translate(-114.2705 -114.2705)\"></path><path fill=\"currentColor\" d=\"M228.54 114.27C228.54 116.76 228.46 119.26 228.3 121.74C228.13 124.23 227.89 126.72 227.56 129.19C227.24 131.66 226.83 134.12 226.35 136.56C225.86 139.01 225.29 141.44 224.65 143.85C224 146.25 223.28 148.64 222.48 151C221.68 153.36 220.8 155.7 219.84 158C218.89 160.3 217.86 162.58 216.76 164.81C215.65 167.05 214.48 169.25 213.23 171.41C211.99 173.56 210.67 175.68 209.28 177.76C207.9 179.83 206.44 181.86 204.93 183.83C203.41 185.81 201.83 187.74 200.18 189.61C198.54 191.49 196.83 193.31 195.07 195.07C193.31 196.83 191.49 198.54 189.61 200.18C187.74 201.83 185.81 203.41 183.83 204.93C181.86 206.44 179.83 207.9 177.76 209.28C175.68 210.67 173.56 211.99 171.41 213.23C169.25 214.48 167.05 215.65 164.81 216.76C162.58 217.86 160.3 218.89 158 219.84C155.7 220.8 153.36 221.68 151 222.48C148.64 223.28 146.25 224 143.85 224.65C141.44 225.29 139.01 225.86 136.56 226.35C134.12 226.83 131.66 227.24 129.19 227.56C126.72 227.89 124.23 228.13 121.74 228.3C119.26 228.46 116.76 228.54 114.27 228.54C111.78 228.54 109.28 228.46 106.8 228.3C104.31 228.13 101.83 227.89 99.36 227.56C96.89 227.24 94.42 226.83 91.98 226.35C89.53 225.86 87.1 225.29 84.7 224.65C82.29 224 79.9 223.28 77.54 222.48C75.18 221.68 72.84 220.8 70.54 219.84C68.24 218.89 65.96 217.86 63.73 216.76C61.5 215.65 59.29 214.48 57.14 213.23C54.98 211.99 52.86 210.67 50.79 209.28C48.71 207.9 46.68 206.44 44.71 204.93C42.73 203.41 40.8 201.83 38.93 200.18C37.05 198.54 35.23 196.83 33.47 195.07C31.71 193.31 30 191.49 28.36 189.61C26.71 187.74 25.13 185.81 23.61 183.83C22.1 181.86 20.64 179.83 19.26 177.76C17.87 175.68 16.55 173.56 15.31 171.41C14.06 169.25 12.89 167.05 11.78 164.81C10.68 162.58 9.65 160.3 8.7 158C7.74 155.7 6.87 153.36 6.06 151C5.26 148.64 4.54 146.25 3.89 143.85C3.25 141.44 2.68 139.01 2.2 136.56C1.71 134.12 1.3 131.66 0.98 129.19C0.65 126.72 0.41 124.23 0.24 121.74C0.08 119.26 0 116.76 0 114.27C0 111.78 0.08 109.28 0.24 106.8C0.41 104.31 0.65 101.83 0.98 99.36C1.3 96.89 1.71 94.42 2.2 91.98C2.68 89.53 3.25 87.1 3.89 84.7C4.54 82.29 5.26 79.9 6.06 77.54C6.87 75.18 7.74 72.84 8.7 70.54C9.65 68.24 10.68 65.96 11.78 63.73C12.89 61.5 14.06 59.29 15.31 57.14C16.55 54.98 17.87 52.86 19.26 50.79C20.64 48.71 22.1 46.68 23.61 44.71C25.13 42.73 26.71 40.8 28.36 38.93C30 37.05 31.71 35.23 33.47 33.47C35.23 31.71 37.05 30 38.93 28.36C40.8 26.71 42.73 25.13 44.71 23.61C46.68 22.1 48.71 20.64 50.79 19.26C52.86 17.87 54.98 16.55 57.14 15.31C59.29 14.06 61.5 12.89 63.73 11.78C65.96 10.68 68.24 9.65 70.54 8.7C72.84 7.74 75.18 6.87 77.54 6.06C79.9 5.26 82.29 4.54 84.7 3.89C87.1 3.25 89.53 2.68 91.98 2.2C94.42 1.71 96.89 1.3 99.36 0.98C101.83 0.65 104.31 0.41 106.8 0.24C109.28 0.08 111.78 0 114.27 0C116.76 0 119.26 0.08 121.74 0.24C124.23 0.41 126.72 0.65 129.19 0.98C131.66 1.3 134.12 1.71 136.56 2.2C139.01 2.68 141.44 3.25 143.85 3.89C146.25 4.54 148.64 5.26 151 6.06C153.36 6.87 155.7 7.74 158 8.7C160.3 9.65 162.58 10.68 164.81 11.78C167.05 12.89 169.25 14.06 171.41 15.31C173.56 16.55 175.68 17.87 177.76 19.26C179.83 20.64 181.86 22.1 183.83 23.61C185.81 25.13 187.74 26.71 189.61 28.36C191.49 30 193.31 31.71 195.07 33.47C196.83 35.23 198.54 37.05 200.18 38.93C201.83 40.8 203.41 42.73 204.93 44.71C206.44 46.68 207.9 48.71 209.28 50.79C210.67 52.86 211.99 54.98 213.23 57.14C214.48 59.29 215.65 61.5 216.76 63.73C217.86 65.96 218.89 68.24 219.84 70.54C220.8 72.84 221.68 75.18 222.48 77.54C223.28 79.9 224 82.29 224.65 84.7C225.29 87.1 225.86 89.53 226.35 91.98C226.83 94.42 227.24 96.89 227.56 99.36C227.89 101.83 228.13 104.31 228.3 106.8C228.46 109.28 228.54 111.78 228.54 114.27Z\" opacity=\"0\" transform=\"translate(114.27050000000001 114.2705) scale(0) translate(-114.2705 -114.2705)\"></path><circle fill=\"currentColor\" cx=\"114.2705\" cy=\"114.2705\" r=\"0\" opacity=\"0\"></circle><circle fill=\"currentColor\" cx=\"114.2705\" cy=\"114.2705\" r=\"0\" opacity=\"0\"></circle><circle fill=\"currentColor\" cx=\"114.28290140110714\" cy=\"114.27726265197042\" r=\"0\" opacity=\"0\"></circle><circle fill=\"currentColor\" cx=\"113.59316545277626\" cy=\"114.54075771547319\" r=\"0\" opacity=\"0\"></circle><circle fill=\"currentColor\" cx=\"114.45519675941351\" cy=\"111.14236527243342\" r=\"0\" opacity=\"0\"></circle><g transform=\"translate(114.2705 114.2705) scale(1.040524017467249) translate(-114.2705 -114.2705)\"><path fill=\"currentColor\" d=\"M228.541 114.228C228.541 130.133 225.184 145.994 218.738 160.534C212.674 174.217 203.904 186.669 193.065 196.988C155.933 232.34 99.497 238.596 55.5255 212.24C45.097 205.99 35.6851 198.072 27.7451 188.866C19.1926 178.953 12.3686 167.569 7.65781 155.351C2.60712 142.264 0 128.257 0 114.228C0 98.3219 3.35751 82.4611 9.80315 67.9215C15.8672 54.2382 24.6377 41.7862 35.4767 31.4668C72.6081 -3.88483 129.044 -10.1413 173.016 16.2153C183.444 22.4653 192.856 30.3829 200.796 39.5896C209.349 49.5018 216.173 60.8859 220.883 73.1037C225.934 86.1906 228.541 100.198 228.541 114.228Z\"></path><g clip-path=\"url(#_R_32qp92nmnb_-face)\"><g><path fill=\"var(--bg, #0a0a0c)\" d=\"M118.17 70.73L120.45 71.04L122.59 71.76L124.55 72.87L126.18 74.38L127.42 76.24L128.34 78.29L129.10 80.42L129.83 82.57L130.55 84.72L131.27 86.86L131.97 89.02L132.64 91.19L133.29 93.36L133.91 95.55L134.50 97.74L135.05 99.95L135.36 102.23L135.16 104.55L134.41 106.80L133.11 108.84L131.36 110.51L129.28 111.73L127.01 112.45L124.68 112.65L122.41 112.33L120.31 111.51L118.45 110.26L116.93 108.62L115.81 106.69L115.01 104.57L114.39 102.39L113.80 100.19L113.17 98.01L112.52 95.84L111.85 93.66L111.17 91.51L110.47 89.35L109.75 87.20L108.94 85.09L108.17 82.96L107.64 80.75L107.63 78.44L108.31 76.16L109.61 74.14L111.41 72.51L113.54 71.41L115.84 70.83Z\" style=\"transition:fill .6s\"></path></g><g><path fill=\"var(--bg, #0a0a0c)\" d=\"M179.77 59.76L182.04 60.05L184.10 60.75L185.92 61.77L187.55 63.03L188.95 64.50L190.10 66.16L191.07 67.95L191.90 69.82L192.67 71.74L193.41 73.66L194.13 75.60L194.80 77.56L195.42 79.55L196.02 81.54L196.56 83.57L197.06 85.61L197.50 87.67L197.90 89.77L198.06 91.94L197.82 94.21L197.15 96.51L195.85 98.72L193.75 100.38L191.30 101.01L189.00 100.81L186.99 100.03L185.30 98.85L183.91 97.38L182.84 95.66L182.05 93.76L181.48 91.76L181.00 89.71L180.53 87.64L180.02 85.60L179.48 83.58L178.89 81.58L178.26 79.60L177.60 77.62L176.90 75.68L176.15 73.76L175.36 71.86L174.53 69.98L173.78 68.06L173.41 65.97L173.71 63.70L175.05 61.53L177.32 60.14Z\" style=\"transition:fill .6s\"></path></g></g></g><g></g></svg>"
+  ],
+  "network_media": [
+    "https://kraftybot.app/_next/static/media/display-s.p.2_a5y-slrzff6.woff2",
+    "https://kraftybot.app/_next/static/media/797e433ab948586e-s.p.0r6juujl39pe6.woff2",
+    "https://kraftybot.app/landing/bot/krafty-moss-arch.webp",
+    "https://kraftybot.app/landing/bot/krafty-tidal-cove.webp",
+    "https://kraftybot.app/landing/bot/cursor-icons.woff2",
+    "https://kraftybot.app/landing/bot/cloud-agents-3.webp"
+  ]
+}

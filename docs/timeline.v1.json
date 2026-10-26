@@ -1,0 +1,290 @@
+{
+  "note": "Single source of truth for picture + sound. Everything is in BEATS on the measured grid (beats.json).",
+  "title": "Krafty Bot — Real work",
+  "duration": 19,
+  "fps": 60,
+  "bpm": 120,
+  "formats": [
+    "16x9",
+    "9x16"
+  ],
+  "music": {
+    "source": "synth",
+    "chords": [
+      "Am7",
+      "Fmaj7",
+      "C",
+      "G"
+    ],
+    "seed": 24,
+    "sections": [
+      {
+        "at": "hook",
+        "kind": "intro"
+      },
+      {
+        "at": "team",
+        "kind": "full"
+      },
+      {
+        "at": 14,
+        "kind": "build"
+      },
+      {
+        "at": "email",
+        "kind": "drop"
+      },
+      {
+        "at": "launch",
+        "kind": "full"
+      },
+      {
+        "at": 30,
+        "kind": "build"
+      },
+      {
+        "at": 31.5,
+        "kind": "gap"
+      },
+      {
+        "at": "end",
+        "kind": "outro"
+      }
+    ],
+    "accents": [
+      "click"
+    ]
+  },
+  "voiceover": null,
+  "marks": {
+    "hook": 0,
+    "hook_w2": 0.5,
+    "hook_w3": 1,
+    "hook_w4": 1.5,
+    "mascot": 2,
+    "team": 4,
+    "row1": 3.5,
+    "row2": 4.25,
+    "row3": 4.5,
+    "row4": 4.75,
+    "chat": 8,
+    "type_in": 8.5,
+    "type_out": 10.75,
+    "routine": 11,
+    "night": 12,
+    "reply": 13,
+    "count0": 13.5,
+    "count1": 15,
+    "email": 16,
+    "cursor": 17,
+    "click": 18.5,
+    "ok_line": 20,
+    "launch": 24,
+    "chk1": 25,
+    "chk2": 25.5,
+    "chk3": 26,
+    "chk4": 26.5,
+    "computer": 28,
+    "window": 28.5,
+    "stat1": 29.5,
+    "stat2": 30,
+    "stat3": 30.5,
+    "end": 32,
+    "wordmark": 32.5,
+    "cta": 34,
+    "url": 35,
+    "blink2": 36,
+    "done": 38
+  },
+  "sfx": [
+    {
+      "at": "hook",
+      "type": "thump",
+      "gain": 0.75,
+      "what": "Give + mascot on frame 0"
+    },
+    {
+      "at": "hook_w2",
+      "type": "pop",
+      "gain": 0.55,
+      "what": "AI"
+    },
+    {
+      "at": "hook_w3",
+      "type": "pop",
+      "gain": 0.6,
+      "what": "real"
+    },
+    {
+      "at": "hook_w4",
+      "type": "pop",
+      "gain": 0.65,
+      "what": "work."
+    },
+    {
+      "at": "mascot",
+      "type": "thump",
+      "gain": 0.6,
+      "what": "mascot hop + blink"
+    },
+    {
+      "at": "row1",
+      "type": "pop",
+      "gain": 0.45,
+      "what": "agent row 1"
+    },
+    {
+      "at": "row2",
+      "type": "pop",
+      "gain": 0.45,
+      "what": "agent row 2"
+    },
+    {
+      "at": "row3",
+      "type": "pop",
+      "gain": 0.45,
+      "what": "agent row 3"
+    },
+    {
+      "at": "row4",
+      "type": "pop",
+      "gain": 0.45,
+      "what": "agent row 4"
+    },
+    {
+      "at": "type_in",
+      "to": "type_out",
+      "every": 0.25,
+      "type": "tick",
+      "gain": 0.3,
+      "what": "typing the brief"
+    },
+    {
+      "at": "routine",
+      "type": "pop",
+      "gain": 0.7,
+      "what": "Created routine chip"
+    },
+    {
+      "at": "night",
+      "type": "whoosh",
+      "gain": 0.5,
+      "what": "night line"
+    },
+    {
+      "at": "reply",
+      "type": "pop",
+      "gain": 0.5,
+      "what": "bot reply"
+    },
+    {
+      "at": "count0",
+      "to": "count1",
+      "every": 0.25,
+      "type": "tick",
+      "gain": 0.28,
+      "what": "counter"
+    },
+    {
+      "at": "email",
+      "type": "whoosh",
+      "gain": 0.6,
+      "what": "email card rises"
+    },
+    {
+      "at": "click",
+      "type": "click",
+      "gain": 0.9,
+      "what": "Send email"
+    },
+    {
+      "at": "ok_line",
+      "type": "pop",
+      "gain": 0.6,
+      "what": "Nothing ships line"
+    },
+    {
+      "at": "launch",
+      "type": "whoosh",
+      "gain": 0.5,
+      "what": "launch team"
+    },
+    {
+      "at": "chk1",
+      "type": "tick",
+      "gain": 0.6,
+      "what": "check 1"
+    },
+    {
+      "at": "chk2",
+      "type": "tick",
+      "gain": 0.6,
+      "what": "check 2"
+    },
+    {
+      "at": "chk3",
+      "type": "tick",
+      "gain": 0.6,
+      "what": "check 3"
+    },
+    {
+      "at": "chk4",
+      "type": "pop",
+      "gain": 0.7,
+      "what": "ready for review"
+    },
+    {
+      "at": "window",
+      "type": "whoosh",
+      "gain": 0.5,
+      "what": "computer window"
+    },
+    {
+      "at": "stat1",
+      "type": "pop",
+      "gain": 0.45,
+      "what": "visitors"
+    },
+    {
+      "at": "stat2",
+      "type": "pop",
+      "gain": 0.45,
+      "what": "signups"
+    },
+    {
+      "at": "stat3",
+      "type": "pop",
+      "gain": 0.5,
+      "what": "activation"
+    },
+    {
+      "at": 30,
+      "type": "riser",
+      "gain": 0.5,
+      "what": "into end card"
+    },
+    {
+      "at": "end",
+      "type": "thump",
+      "gain": 0.9,
+      "what": "mascot lands"
+    },
+    {
+      "at": "cta",
+      "type": "pop",
+      "gain": 0.55,
+      "what": "CTA"
+    },
+    {
+      "at": "url",
+      "type": "pop",
+      "gain": 0.5,
+      "what": "url"
+    }
+  ],
+  "brand": {
+    "product": "Krafty",
+    "url": "https://kraftybot.app",
+    "cta": "Start free at kraftybot.app"
+  }
+}

@@ -1,0 +1,471 @@
+{
+  "note": "Single source of truth for picture + sound. Everything is in BEATS on the measured grid (beats.json).",
+  "title": "Krafty — flagship reveal",
+  "duration": 33,
+  "fps": 60,
+  "bpm": 120,
+  "formats": [
+    "16x9",
+    "9x16"
+  ],
+  "music": {
+    "source": "synth",
+    "chords": [
+      "Fmaj7",
+      "Am7",
+      "Dm7",
+      "C"
+    ],
+    "seed": 31,
+    "sections": [
+      {
+        "at": 0,
+        "kind": "intro"
+      },
+      {
+        "at": 8,
+        "kind": "full"
+      },
+      {
+        "at": 18,
+        "kind": "build"
+      },
+      {
+        "at": 20,
+        "kind": "drop"
+      },
+      {
+        "at": 32,
+        "kind": "full"
+      },
+      {
+        "at": 38,
+        "kind": "build"
+      },
+      {
+        "at": 40,
+        "kind": "drop"
+      },
+      {
+        "at": 52,
+        "kind": "full"
+      },
+      {
+        "at": 58,
+        "kind": "build"
+      },
+      {
+        "at": 59.5,
+        "kind": "gap"
+      },
+      {
+        "at": 60,
+        "kind": "outro"
+      }
+    ],
+    "accents": [
+      "tap_ok"
+    ]
+  },
+  "voiceover": null,
+  "marks": {
+    "s1": 0,
+    "w2": 0.5,
+    "w3": 1,
+    "w4": 1.5,
+    "pull": 3,
+    "team": 3.5,
+    "orbit": 4,
+    "back": 7.2,
+    "s2": 8,
+    "nav1": 8,
+    "cur_mic": 9,
+    "tap_mic": 10,
+    "dict0": 10.2,
+    "dict1": 12.6,
+    "tap_send": 13.2,
+    "msg1": 13.4,
+    "tools": 14.2,
+    "app0": 14.6,
+    "tools_d": 16.4,
+    "apps_on": 17,
+    "apps_back": 19.2,
+    "s3": 20,
+    "pc_row": 20.5,
+    "pip": 21,
+    "f1": 22.5,
+    "f2": 23,
+    "f3": 23.5,
+    "rows0": 24,
+    "rows1": 25.5,
+    "profile": 26,
+    "scan": 26.5,
+    "verified": 27.5,
+    "pip_close": 29.2,
+    "file": 29.8,
+    "file_d": 30.6,
+    "s4": 32,
+    "nav2": 32,
+    "h1": 33,
+    "h2": 35,
+    "h3": 37.5,
+    "s5": 40,
+    "appr": 41,
+    "cur_ok": 42.6,
+    "hover_ok": 43.5,
+    "tap_ok": 44.5,
+    "approved": 45,
+    "s6": 52,
+    "mem": 53,
+    "routine": 55,
+    "cur_tg": 56,
+    "tap_tg": 57,
+    "collapse": 59.5,
+    "end": 60.1,
+    "mascot": 60.35,
+    "wordmark": 60.1,
+    "cta": 61.5,
+    "url": 62.5,
+    "line0": 63,
+    "blink": 65,
+    "done": 66
+  },
+  "sfx": [
+    {
+      "at": "s1",
+      "type": "chime",
+      "gain": 0.8,
+      "what": "hook notification"
+    },
+    {
+      "at": "w2",
+      "type": "pop",
+      "gain": 0.4,
+      "what": "AI"
+    },
+    {
+      "at": "w3",
+      "type": "pop",
+      "gain": 0.45,
+      "what": "real"
+    },
+    {
+      "at": "w4",
+      "type": "pop",
+      "gain": 0.5,
+      "what": "work."
+    },
+    {
+      "at": "pull",
+      "type": "whoosh",
+      "gain": 0.55,
+      "what": "camera pulls back"
+    },
+    {
+      "at": 4,
+      "type": "pop",
+      "gain": 0.38,
+      "what": "bot orbit 0",
+      "pitch": 1
+    },
+    {
+      "at": 4.25,
+      "type": "pop",
+      "gain": 0.38,
+      "what": "bot orbit 1",
+      "pitch": 1.06
+    },
+    {
+      "at": 4.5,
+      "type": "pop",
+      "gain": 0.38,
+      "what": "bot orbit 2",
+      "pitch": 1.12
+    },
+    {
+      "at": 4.75,
+      "type": "pop",
+      "gain": 0.38,
+      "what": "bot orbit 3",
+      "pitch": 1.18
+    },
+    {
+      "at": 5,
+      "type": "pop",
+      "gain": 0.38,
+      "what": "bot orbit 4",
+      "pitch": 1.24
+    },
+    {
+      "at": "back",
+      "type": "whoosh",
+      "gain": 0.35,
+      "what": "bots return"
+    },
+    {
+      "at": "nav1",
+      "type": "whoosh",
+      "gain": 0.4,
+      "what": "into chat"
+    },
+    {
+      "at": "tap_mic",
+      "type": "blip",
+      "gain": 0.8,
+      "what": "mic opens"
+    },
+    {
+      "at": "dict0",
+      "type": "flutter",
+      "gain": 0.45,
+      "what": "dictation",
+      "to": "dict1",
+      "every": 0.25
+    },
+    {
+      "at": "tap_send",
+      "type": "click",
+      "gain": 0.75,
+      "what": "send"
+    },
+    {
+      "at": "msg1",
+      "type": "pop",
+      "gain": 0.5,
+      "what": "prompt bubble"
+    },
+    {
+      "at": 14.85,
+      "type": "harm",
+      "gain": 0.5,
+      "what": "app badge 0",
+      "pitch": 1
+    },
+    {
+      "at": 15.1,
+      "type": "harm",
+      "gain": 0.5,
+      "what": "app badge 1",
+      "pitch": 1.12
+    },
+    {
+      "at": 15.35,
+      "type": "harm",
+      "gain": 0.5,
+      "what": "app badge 2",
+      "pitch": 1.24
+    },
+    {
+      "at": 15.6,
+      "type": "harm",
+      "gain": 0.5,
+      "what": "app badge 3",
+      "pitch": 1.3599999999999999
+    },
+    {
+      "at": 15.85,
+      "type": "harm",
+      "gain": 0.5,
+      "what": "app badge 4",
+      "pitch": 1.48
+    },
+    {
+      "at": "tools_d",
+      "type": "tick",
+      "gain": 0.6,
+      "what": "tools done"
+    },
+    {
+      "at": "apps_on",
+      "type": "confirm",
+      "gain": 0.35,
+      "what": "apps connected"
+    },
+    {
+      "at": "pip",
+      "type": "glass",
+      "gain": 0.7,
+      "what": "PIP window opens"
+    },
+    {
+      "at": 22.65,
+      "type": "mclick",
+      "gain": 0.6,
+      "what": "filter 1"
+    },
+    {
+      "at": 23.15,
+      "type": "mclick",
+      "gain": 0.6,
+      "what": "filter 2"
+    },
+    {
+      "at": 23.65,
+      "type": "mclick",
+      "gain": 0.6,
+      "what": "filter 3"
+    },
+    {
+      "at": "profile",
+      "type": "mclick",
+      "gain": 0.7,
+      "what": "open profile"
+    },
+    {
+      "at": "verified",
+      "type": "tick",
+      "gain": 0.6,
+      "what": "verified"
+    },
+    {
+      "at": "pip_close",
+      "type": "whoosh",
+      "gain": 0.4,
+      "what": "PIP closes"
+    },
+    {
+      "at": "file_d",
+      "type": "tick",
+      "gain": 0.65,
+      "what": "file saved"
+    },
+    {
+      "at": "nav2",
+      "type": "whoosh",
+      "gain": 0.4,
+      "what": "group chat"
+    },
+    {
+      "at": "h1",
+      "type": "pop",
+      "gain": 0.5,
+      "what": "Talent Scout handoff"
+    },
+    {
+      "at": "h2",
+      "type": "pop",
+      "gain": 0.55,
+      "what": "Analyst table"
+    },
+    {
+      "at": "h3",
+      "type": "pop",
+      "gain": 0.5,
+      "what": "Mailmate"
+    },
+    {
+      "at": "appr",
+      "type": "glass",
+      "gain": 0.5,
+      "what": "approval card lifts"
+    },
+    {
+      "at": "tap_ok",
+      "type": "switch",
+      "gain": 0.9,
+      "what": "Approve & Send"
+    },
+    {
+      "at": "approved",
+      "type": "confirm",
+      "gain": 0.7,
+      "what": "approved chord"
+    },
+    {
+      "at": "mem",
+      "type": "pop",
+      "gain": 0.5,
+      "what": "memory card"
+    },
+    {
+      "at": "routine",
+      "type": "pop",
+      "gain": 0.5,
+      "what": "routine card"
+    },
+    {
+      "at": "tap_tg",
+      "type": "switch",
+      "gain": 0.85,
+      "what": "routine ON"
+    },
+    {
+      "at": 57.25,
+      "type": "confirm",
+      "gain": 0.55,
+      "what": "routine chord"
+    },
+    {
+      "at": 58,
+      "type": "riser",
+      "gain": 0.45,
+      "what": "into end card"
+    },
+    {
+      "at": "collapse",
+      "type": "whoosh",
+      "gain": 0.55,
+      "what": "phone collapses"
+    },
+    {
+      "at": "mascot",
+      "type": "thump",
+      "gain": 0.9,
+      "what": "mascot lands"
+    },
+    {
+      "at": "cta",
+      "type": "pop",
+      "gain": 0.5,
+      "what": "CTA"
+    },
+    {
+      "at": "url",
+      "type": "pop",
+      "gain": 0.55,
+      "what": "url"
+    },
+    {
+      "at": 63,
+      "type": "pop",
+      "gain": 0.32,
+      "what": "bot formation 0"
+    },
+    {
+      "at": 63.25,
+      "type": "pop",
+      "gain": 0.32,
+      "what": "bot formation 1"
+    },
+    {
+      "at": 63.5,
+      "type": "pop",
+      "gain": 0.32,
+      "what": "bot formation 2"
+    },
+    {
+      "at": 63.75,
+      "type": "pop",
+      "gain": 0.32,
+      "what": "bot formation 3"
+    },
+    {
+      "at": 64,
+      "type": "pop",
+      "gain": 0.32,
+      "what": "bot formation 4"
+    }
+  ],
+  "brand": {
+    "product": "Krafty",
+    "url": "https://kraftybot.app",
+    "cta": "Start free at kraftybot.app"
+  },
+  "mix": {
+    "music": 0,
+    "sfx": -3,
+    "vo": 0,
+    "duck": true,
+    "duck_sfx_db": -3.5
+  }
+}

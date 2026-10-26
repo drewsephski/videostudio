@@ -1,0 +1,425 @@
+{
+  "note": "Single source of truth for picture + sound. Everything is in BEATS on the measured grid (beats.json).",
+  "title": "Krafty Bot — Real work",
+  "duration": 25,
+  "fps": 60,
+  "bpm": 120,
+  "formats": [
+    "16x9",
+    "9x16"
+  ],
+  "music": {
+    "source": "synth",
+    "chords": [
+      "Am7",
+      "Fmaj7",
+      "C",
+      "G"
+    ],
+    "seed": 24,
+    "sections": [
+      {
+        "at": "hook",
+        "kind": "intro"
+      },
+      {
+        "at": "phone_in",
+        "kind": "full"
+      },
+      {
+        "at": 20,
+        "kind": "build"
+      },
+      {
+        "at": 22.5,
+        "kind": "drop"
+      },
+      {
+        "at": 31.5,
+        "kind": "full"
+      },
+      {
+        "at": 39.5,
+        "kind": "build"
+      },
+      {
+        "at": 41.5,
+        "kind": "gap"
+      },
+      {
+        "at": "end",
+        "kind": "outro"
+      }
+    ],
+    "accents": [
+      "tap7"
+    ]
+  },
+  "voiceover": null,
+  "marks": {
+    "hook": 0,
+    "w2": 1,
+    "w3": 2,
+    "w4": 2.5,
+    "bot2": 1.5,
+    "bot3": 2,
+    "bot4": 3,
+    "bot5": 3.5,
+    "bot6": 4,
+    "phone_in": 4.5,
+    "fly": 5.25,
+    "team": 6.5,
+    "cur1": 9.5,
+    "tap1": 10.5,
+    "pop": 10.75,
+    "hover1": 11.4,
+    "tap2": 12,
+    "nav1": 12.25,
+    "chat": 12.5,
+    "think1": 13.75,
+    "g0": 14.5,
+    "g1": 15,
+    "cur2": 15.75,
+    "tap3": 16.75,
+    "g2": 17,
+    "g3": 18.25,
+    "g4": 19,
+    "tap4": 20,
+    "g5": 20.25,
+    "g6": 20.75,
+    "g6d": 21.25,
+    "g7": 22,
+    "work": 22.5,
+    "tap5": 23,
+    "type0": 23.5,
+    "type1": 27,
+    "tap6": 27.5,
+    "g8": 27.75,
+    "think2": 28,
+    "g9": 28.75,
+    "g9d": 29.25,
+    "g10": 29.5,
+    "g10d": 30,
+    "g11": 30.5,
+    "go": 29,
+    "g12": 31.5,
+    "email": 32.5,
+    "cur3": 33,
+    "hover3": 33.75,
+    "tap7": 34.5,
+    "g13": 35,
+    "g13d": 35.5,
+    "g14": 36.25,
+    "computer": 37.5,
+    "g15": 37.75,
+    "g16": 38.75,
+    "g16d": 39.5,
+    "g17": 40.25,
+    "collapse": 42,
+    "end": 42.6,
+    "mascot": 42.85,
+    "wordmark": 42.6,
+    "cta": 44.5,
+    "url": 45.5,
+    "line0": 46,
+    "blink": 48.5,
+    "done": 50
+  },
+  "sfx": [
+    {
+      "at": "hook",
+      "type": "thump",
+      "gain": 0.75,
+      "what": "Give + first bot"
+    },
+    {
+      "at": "w2",
+      "type": "pop",
+      "gain": 0.5,
+      "what": "AI"
+    },
+    {
+      "at": "w3",
+      "type": "pop",
+      "gain": 0.55,
+      "what": "real"
+    },
+    {
+      "at": "w4",
+      "type": "pop",
+      "gain": 0.6,
+      "what": "work."
+    },
+    {
+      "at": "bot2",
+      "type": "pop",
+      "gain": 0.4,
+      "what": "bot2"
+    },
+    {
+      "at": "bot3",
+      "type": "pop",
+      "gain": 0.4,
+      "what": "bot3"
+    },
+    {
+      "at": "bot4",
+      "type": "pop",
+      "gain": 0.4,
+      "what": "bot4"
+    },
+    {
+      "at": "bot5",
+      "type": "pop",
+      "gain": 0.4,
+      "what": "bot5"
+    },
+    {
+      "at": "bot6",
+      "type": "pop",
+      "gain": 0.4,
+      "what": "bot6"
+    },
+    {
+      "at": "phone_in",
+      "type": "whoosh",
+      "gain": 0.7,
+      "what": "phone rises"
+    },
+    {
+      "at": "team",
+      "type": "pop",
+      "gain": 0.45,
+      "what": "bots land"
+    },
+    {
+      "at": "tap1",
+      "type": "click",
+      "gain": 0.75,
+      "what": "tap +"
+    },
+    {
+      "at": "pop",
+      "type": "pop",
+      "gain": 0.5,
+      "what": "menu opens"
+    },
+    {
+      "at": "tap2",
+      "type": "click",
+      "gain": 0.75,
+      "what": "New teammate"
+    },
+    {
+      "at": "nav1",
+      "type": "whoosh",
+      "gain": 0.45,
+      "what": "push into chat"
+    },
+    {
+      "at": "g0",
+      "type": "pop",
+      "gain": 0.5,
+      "what": "greeting"
+    },
+    {
+      "at": "g1",
+      "type": "pop",
+      "gain": 0.45,
+      "what": "question card"
+    },
+    {
+      "at": "tap3",
+      "type": "click",
+      "gain": 0.75,
+      "what": "pick option"
+    },
+    {
+      "at": "g3",
+      "type": "pop",
+      "gain": 0.45,
+      "what": "bot plan"
+    },
+    {
+      "at": "g4",
+      "type": "pop",
+      "gain": 0.45,
+      "what": "save card"
+    },
+    {
+      "at": "tap4",
+      "type": "click",
+      "gain": 0.75,
+      "what": "Save it"
+    },
+    {
+      "at": "g6d",
+      "type": "tick",
+      "gain": 0.6,
+      "what": "configured done"
+    },
+    {
+      "at": "g7",
+      "type": "pop",
+      "gain": 0.5,
+      "what": "saved"
+    },
+    {
+      "at": "tap5",
+      "type": "click",
+      "gain": 0.6,
+      "what": "tap composer"
+    },
+    {
+      "at": "type0",
+      "type": "tick",
+      "gain": 0.25,
+      "what": "typing",
+      "to": "type1",
+      "every": 0.25
+    },
+    {
+      "at": "tap6",
+      "type": "click",
+      "gain": 0.75,
+      "what": "send"
+    },
+    {
+      "at": "g8",
+      "type": "pop",
+      "gain": 0.55,
+      "what": "request bubble"
+    },
+    {
+      "at": "g9d",
+      "type": "tick",
+      "gain": 0.6,
+      "what": "found tools"
+    },
+    {
+      "at": "g10d",
+      "type": "tick",
+      "gain": 0.6,
+      "what": "searched web"
+    },
+    {
+      "at": "g11",
+      "type": "pop",
+      "gain": 0.45,
+      "what": "research done"
+    },
+    {
+      "at": "g12",
+      "type": "whoosh",
+      "gain": 0.55,
+      "what": "email card"
+    },
+    {
+      "at": "tap7",
+      "type": "click",
+      "gain": 0.95,
+      "what": "Send email"
+    },
+    {
+      "at": "g13d",
+      "type": "tick",
+      "gain": 0.65,
+      "what": "ran approved action"
+    },
+    {
+      "at": "g14",
+      "type": "pop",
+      "gain": 0.5,
+      "what": "sent"
+    },
+    {
+      "at": "g15",
+      "type": "pop",
+      "gain": 0.5,
+      "what": "save request"
+    },
+    {
+      "at": "g16d",
+      "type": "tick",
+      "gain": 0.65,
+      "what": "saved file"
+    },
+    {
+      "at": "g17",
+      "type": "pop",
+      "gain": 0.45,
+      "what": "saved reply"
+    },
+    {
+      "at": 39.5,
+      "type": "riser",
+      "gain": 0.5,
+      "what": "into end card"
+    },
+    {
+      "at": "collapse",
+      "type": "whoosh",
+      "gain": 0.6,
+      "what": "phone collapses"
+    },
+    {
+      "at": "mascot",
+      "type": "thump",
+      "gain": 0.9,
+      "what": "mascot lands"
+    },
+    {
+      "at": "cta",
+      "type": "pop",
+      "gain": 0.55,
+      "what": "CTA"
+    },
+    {
+      "at": "url",
+      "type": "pop",
+      "gain": 0.55,
+      "what": "url"
+    },
+    {
+      "at": 46,
+      "type": "pop",
+      "gain": 0.35,
+      "what": "bot orbit 0"
+    },
+    {
+      "at": 46.25,
+      "type": "pop",
+      "gain": 0.35,
+      "what": "bot orbit 1"
+    },
+    {
+      "at": 46.5,
+      "type": "pop",
+      "gain": 0.35,
+      "what": "bot orbit 2"
+    },
+    {
+      "at": 46.75,
+      "type": "pop",
+      "gain": 0.35,
+      "what": "bot orbit 3"
+    },
+    {
+      "at": 47,
+      "type": "pop",
+      "gain": 0.35,
+      "what": "bot orbit 4"
+    },
+    {
+      "at": 47.25,
+      "type": "pop",
+      "gain": 0.35,
+      "what": "bot orbit 5"
+    }
+  ],
+  "brand": {
+    "product": "Krafty",
+    "url": "https://kraftybot.app",
+    "cta": "Start free at kraftybot.app"
+  }
+}
